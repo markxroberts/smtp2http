@@ -21,7 +21,7 @@ Or build it as it comes from the repo :
 The `timeout` options are of course optional but make it easier to test in local with `telnet localhost 25`
 Here is a telnet example payload : 
 ```
-HELO zeus
+HELLO zeus
 # smtp answer
 
 MAIL FROM:<email@from.com>
