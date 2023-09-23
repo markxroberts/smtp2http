@@ -42,6 +42,16 @@ Docker (production)
 **See "Dev with Docker" above**
 - `docker run -p 25:25 smtp2http --webhook=http://some.hook/api`
 
+Mail format (json)
+=====
+subject
+date
+resent_date
+body
+addresses
+  from
+  to
+
 Native usage
 =====
 `smtp2http --listen=:25 --webhook=http://localhost:8080/api/smtp-hook`
